@@ -32,7 +32,7 @@ const buildUser = (userData) => {
 
     console.log(userProfile);
     buildUser(userProfile);
-    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxleGlzbjg1aCIsImEiOiJjbGVpemR4YnEwMnV3M3ltbm40ZDM1dXp6In0.MWUKGSss6ldGM64srPro6w';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxleGlzbjg1aCIsImEiOiJjbGVpejZob2EwNXRoM3Ruemdyd3Q2dzQyIn0._qjuqXx16T0l6NUw21qs7Q';
     const map = new mapboxgl.Map({
     container: 'mapContainer', // container ID
     style: 'mapbox://styles/mapbox/streets-v12', // style URL
